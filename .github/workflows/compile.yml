@@ -13,9 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         os:
-        - macOS-11
         - macOS-12
         - macOS-13
+        - macOS-14
         go:
         - stable
     steps:
